@@ -39,6 +39,7 @@ public class playerForm extends javax.swing.JFrame implements Serializable {
         initComponents();
         Image image = Toolkit.getDefaultToolkit().createImage( getClass().getResource("/images/KTjgG7yAc.png") );
         this.setIconImage( image );
+        System.out.println("Hallo world");
     }
 
     /**
